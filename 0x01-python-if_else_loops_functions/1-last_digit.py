@@ -2,6 +2,7 @@
 import random
 number = random.randint(-10000, 10000)
 lastdigit = abs(number) % 10
+strng = "Last digit of {} is {}".format(number, lastdigit)
 if number < 0:
     strng = "Last digit of {} is {}".format(number, lastdigit)
     lastdigit = -lastdigit
